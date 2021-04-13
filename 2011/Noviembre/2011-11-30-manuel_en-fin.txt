@@ -1,0 +1,78 @@
+
+Experience====
+INDITEX, is one of the world's largest fashion retailers, welcoming shoppers atits eight store formats -Zara, Pull & Bear, Massimo Dutti, Bershka, Stradivarius,
+
+Oysho, Zara Home and Uterqüe - boasting more than 5.000 stores in 77 countries.,http://www.inditex.com.
+
+Oct.2009-Today Technician Office, INDITEX, Arteixo, La Coruña.We are in charged of supervision of all technician departments (+150 technicians) and their most important projects like SAN evolution -0.5 PB net data migration from IBM DS8300 andDS4800 to EMC VMAX-, E-Commerce Websites or Network redesigning
+Feb.2009-Sep.2009 Information Security, INDITEX, Arteixo, La Coruña.We were in charge of checking all IT designs for following up best practices on security, adapting our company to legislations as PCI/DSS and also we were in charge of solutions related withsecurity like IAM for user management or a SIEM for log analysis, etc.
+Feb.2008-Jan.2009 Systems Architecture Project Manager, INDITEX, Arteixo.I was in charged of Designing and project management of Windows and GNU/Linux areas
+
+Some projects that we deployed during this year were: Active Directory Consolidation -from 40domains to 4- or Standardizing Linux installations with an automatic process
+
+Feb.2006-Feb.2008 Systems Architecture, INDITEX, Arteixo.We were in charge of designing and implementing solutions for all INDITEX Group.
+
+During this period I was involved on designing and implementing Exchange 2003, standarize filepermissions, opening of Turkey office or the E-Commerce site of Zara Home
+
+Feb.2004-Feb.2006 Systems Administrator/Support, INDITEX, Arteixo.I was part of the group in charge of maintaining all open enterprise servers (Exchange, AD, Debian Firewalls...) and storage (Clariion CX500 and CX600)We were in charge of giving technical support to users of headquarters and branches (+1000
+users)
+
+Gestoría Nogueira y Álvarez, is an agency, consultancy and real estate agency withmore than 50 years of experience., http://www.nogueirayalvarez.es.
+May.2003-Feb.2004 Systems Administrator, Gestora Nogueira y Alvarez, Ourense.We were involved on a migration from Windows NT to Windows 2003 of this agency and deploying their website and a new corporate email system.After this migration, we were in charge of maintaining servers and user support
+
+Education====
+Master==
+Nov.2004-Nov.2006 Máster Internacional de Software Libre, Universitat Oberta de Catalunya (UOC).
+
+University==
+Jan.2002-Jun.2004 Computer science Engineer, Universidade de Vigo, Ourense.
+Sep.1998-Jan.2002 Technical Engineer in Computer science of Management, UVigo, Ourense.
+
+Other education==
+2010 The ITIL Foundation Certification v3.0, Xunga - CNTG, Santiago, 42 hours.
+Jul.2011 AKAMAI Dynamic Site Acceleration Certified, Akamai, Arteixo, 16 hours.
+Jun.2011 - Jul.2011 Programa formativo en Habilidades: Eficacia Personal - Excelencia Profesional,Indra, La Coruña, 40 hours.
+May.2011 EMCWORLD, EMC, Las Vegas, 4 days.
+Nov.2010 Cobit Foundations , Xunta - CNTG, La Coruña, 26 hours.
+2010 The ITIL Foundation Certification v3.0, Element-K, E-Learning.
+Sep.2010 PMP Methodology Introduction, Tecnocom, Arteixo, 15h.
+May.2010 OCS 2007 Courses, Profesional Training, Arteixo, 20 hours.
+
+MOC5178A Implementing and Maintaining Audio/Visual Conferencing and Web Conferencing Using OCS 2007MOC5179A Implementing and Maintaining Telephony Using Microsoft Office Communications Server 2007
+
+Jan.2010 Identity Management and Access Control Labs, Oracle, Santiago, 25h.
+Apr.2009 Using TSA with InfoSphere Balanced Warehouse, IBM formación, Arteixo, 25h.
+Mar.2009 VMWorld 2009, VMWARE, Canes, 4 days.
+Jul.2008 Active Directory 2008, Profesional Training, Arteixo, 50 hours.
+
+MOC6425 Configuring Windows Server 2008 Active Directory Domain Services
+MOC6436 Designing a Windows Server 2008 Active Directory Infrastructure and Services
+
+Jul.2008 Exchange Server 2007 Courses, Profesional Training, Arteixo, 30 hours.
+
+MOC5053 Designing a Messaging Infrastructure using Microsoft Exchange Server 2007
+MOC5054 Designing a High Availability Messaging Solution with Microsoft Exchange Server2007
+
+Ago.2007 AIX 5l Courses, IBM servicios de formación, Arteixo, 75 hours.
+
+AIX 5L System Administration III: Performance Management
+AIX System Administration II: Problem Determination
+AIX System Administration I: Implementation
+
+Feb.2007 WorkShop Recovery Exchange, Microsoft Espan~a, Madrid, 32 hours.
+
+Languages===
+Spanish Native
+Galician Native
+English Fluent Equivalent to CAE-C1Other
+
+Publications==
+Jun.2005 "I Congreso de las Tecnologi'as del Software Libre" Editor, ISBN 84-609-6216-4.
+Nov.2004 "Introducción a Linux e Software Libre", ISBN 84-8158-272-7.
+
+Asociaciones y Activities
+2004-Today Trisquel Project Contributor, Trisquel, Ourense, http://www.trisquel.info/.
+Jan.2003-Dic.2003 Security Group Member, ESEI, Ourense, http://www.esei.uvigo.es/.
+
+Extra
+- Driving licence B-1: Spanish driving licence holder. Own car. Travel availability
