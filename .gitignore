@@ -13,3 +13,4 @@ hs_err_pid*
 *manuel*.pdf
 *.log
 *.out
+*.aux
