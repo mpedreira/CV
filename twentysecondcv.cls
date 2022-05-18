@@ -198,6 +198,10 @@
     
     \vspace{4mm}
     \renewcommand{\arraystretch}{2}
+    \begin{tabular}{p{0cm} @{\hskip -0.2cm}p{6.5cm}}
+      \ifthenelse{\equal{\aboutme}{}}{}{
+            & \aboutme\\}      
+    \end{tabular}
     \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
       		{$
@@ -206,7 +210,6 @@
               \end{array}
               $} 
             & \cvnumberphone\\}
-            
 %      \ifthenelse{\equal{\href{\cvsite}{\cvsite}}{}}{}{
 %            {$
 %              \begin{array}{l}
@@ -422,13 +425,6 @@
 		#2%
 	}\\
 }
-%----------------------------------------------------------------------------------------
-%	 QUOTE
-%----------------------------------------------------------------------------------------
-
-\newcommand*{\quote}[1]{\def\@quote{#1}}
-\newcommand*{\quotefont}{}
-\newcommand*{\quotestyle}[1]{{\quotefont#1}}
 
 
 %----------------------------------------------------------------------------------------
