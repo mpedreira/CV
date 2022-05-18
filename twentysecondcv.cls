@@ -155,7 +155,7 @@
 \newcommand\languajes[1]{ 
 	\renewcommand{\languajes}{
 		\begin{tikzpicture}
-        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
+        	\node [above right] at (0, 4) {$0 \:  \: \arrow{3.2} \: 5000 \: LOC$};
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
 				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
@@ -183,6 +183,12 @@
 
   \begin{textblock}{6}(0.5, 0.2)
 
+  \ifthenelse{\equal{\profilepic}{}}{}{\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
+    \clip (600/2, 567/2) circle (567/2);
+
+        \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
+\end{tikzpicture}}
+
     %------------------------------------------------
     
         \vspace{4mm}
@@ -200,7 +206,10 @@
     \renewcommand{\arraystretch}{2}
     \begin{tabular}{p{0cm} @{\hskip -0.2cm}p{6.5cm}}
       \ifthenelse{\equal{\aboutme}{}}{}{
-            & \aboutme\\}      
+                \vspace*{-1cm}\includegraphics[width=0.3in]{img/left-quote.png}%{\raggedright\color{dark-gray}
+            & {\fontfamily{pcr}\aboutme\\
+            \vspace*{-0.8cm}\hspace*{5.5cm}\includegraphics[width=0.3in]{img/right-quote.png}%{\raggedright\color{dark-gray}
+            }}      
     \end{tabular}
     \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
@@ -244,17 +253,10 @@
 
     %------------------------------------------------
     \vspace{4mm}
-    \profilesection{Skills}{4cm}
-    
-    {\large \textbf{Overview}}
-
-	\skills
+    \profilesection{Languages}{2.5cm}
         
         %------------------------------------------------
-        
-        \vspace{3mm}
-       
-	 {\large \textbf{Languages}} 
+
 
 		 \languajes
          
@@ -334,7 +336,10 @@
             }   
             
     \end{tabular}
+    \profilesection{Skills}{4cm}
+    \\
 
+	\skills
   \end{textblock}
 }
 
