@@ -15,8 +15,8 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass[a4paper]{twentysecondcv} % a4paper for A4
+\usepackage[none]{hyphenat}
 
 % Command for printing skill overview bubbles
 \newcommand\skills{ 
@@ -48,7 +48,7 @@
 \cvlinkedin{/in/manuelpa}
 \cvgithub{mpedreira}
 \cvnumberphone{(+34) 647722535} % Phone number
-\cvsite{} 
+%\cvsite{} 
 \cvmail{manuelpa@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
@@ -63,43 +63,26 @@
 %\textbf{AZ 900 - Microsoft Azure Fundamentals}{Microsoft} \\
 %\textbf{Fortinet FCNSA}{FORTINET} \\
 %\textbf{Fortinet FCNSP}{FORTINET} \\
-%\textbf{ITIL Foundation} - {ITIL Certification Management Board (EXIM)} \\
 \textbf{ITIL Foundation} - {EXIM} \\
 \textbf{Professional Scrum Product Owner I} - {SCRUM.net} \\ 
 \textbf{SCRUM Master} - {SCRUM Manager}\\
 }
-
-%\subsection{Certifications}
-%\cventry{\tiny{Sep.2014}}{Certificado en Fortinet FCNSA}{FORTINET}{} {}{}
-%\cventry{\tiny{Feb.2020}}{AZ 900 - Microsoft Azure Fundamentals}{Microsoft}{} {}{}
-%\cventry{\tiny{Jun.2019}}{Professional Scrum Product Owner I}{SCRUM.net}{} {}{}
-%\cventry{\tiny{Nov.2018}}{AKAMAI Kona Site Defender - Configuration and Maintenance}{AKAMAI}{} {}{}
-%\cventry{\tiny{Nov.2018}}{AKAMAI Bot Manager Foundations}{AKAMAI}{} {}{}
-%\cventry{\tiny{Nov.2018}}{Web Peformance Foundations}{AKAMAI}{} {}{}
-%\cventry{\tiny{Nov.2018}}{Web Performance Offload}{AKAMAI}{} {}{}
-%\cventry{\tiny{Oct.2018}}{SCRUM Master}{SCRUM Manager}{} {}{}
-%\cventry{\tiny{Sep.2014}}{Fortinet FCNSP}{FORTINET}{} {}{}
-%\cventry{\tiny{Ene.2014}}{AKAMAI KONA}{AKAMAI}{} {}{}
-%\cventry{\tiny{Ene.2014}}{AKAMAI Aqua Ion}{AKAMAI}{} {}{}
-%\cventry{\tiny{Ene.2012}}{ITIL Foundation}{ITIL Certification Management Board (EXIM)}{} {}{}
-%\cventry{\tiny{Jul.2011}}{AKAMAI Dynamic Site Acceleration}{AKAMAI}{} {}{}
-
+\aboutme{
+IT professional with solid technical education and more than 20 years of experience  that is capable of understanding the the business challenges and design solutions and execute aligned with it.
+I am accustomed to manage and coordinate teams of different sizes including extremely big teams for running technical projects in environments where the change and the exigence are in the day basis} %About me section
 
 \begin{document}
 
-
 \makeprofile % Print the sidebar
-\makebox[0pt][l]{%
-  \raisebox{-\totalheight}[0pt][0pt]{%
-    \includegraphics[width=0.3in]{img/quote.png}}}%{\raggedright\color{dark-gray}
-\begin{quote}
-IT professional with solid technical education and more than 20 years of experience  that is capable of understanding the the business challenges and design solutions and execute aligned with it.
-I am accustomed to manage and coordinate teams of different sizes including extremely big teams for running technical projects in environments where the change and the exigence are in the day basis}
-\end{quote}
+%\makebox[0pt][l]{%
+%  \raisebox{-\totalheight}[0pt][0pt]{%
+%    \includegraphics[width=0.3in]{img/quote.png}}}%{\raggedright\color{dark-gray}
+%\quote{IT professional with solid technical education and more than 20 years of experience  that is capable of %understanding the the business challenges and design solutions and execute aligned with it.
+%I am accustomed to manage and coordinate teams of different sizes including extremely big teams for running technical %projects in environments where the change and the exigence are in the day basis}  
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------https://es.overleaf.com/project/6284a571a95fe235b9c0fb79
 
 \section{Experience}
 
@@ -152,10 +135,6 @@ I am accustomed to manage and coordinate teams of different sizes including extr
         \end{itemize}
         }
         \\
-\end{twenty}
-\newpage
-\makeprofilepagetwo % Print the sidebar
-\begin{twenty}  
 \twentyitem
     	{Sep.2009 -}
 		{Feb.2009}
@@ -165,7 +144,11 @@ I am accustomed to manage and coordinate teams of different sizes including extr
         {
         During my time as Technical Manager in Security Department, I was in charge of selecting and implementing security solution like the IAM solution -in 2020 it was managing more than 250k users- or the corporate SIEM solution. 
         }
-        \\      
+        \\  
+\end{twenty}
+\newpage
+\makeprofilepagetwo % Print the sidebar
+\begin{twenty}  
 \twentyitem
     	{Feb.2009 -}
 		{Feb.2008}
@@ -211,8 +194,23 @@ I am accustomed to manage and coordinate teams of different sizes including extr
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
-\section{Courses}
+\section{Education}
 
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{2015}{}{Executive Development Programme}{\href{https://www.ie.edu/es/}{\textbf{Instituto de Empresa(IE)}}}{}{}
+	\twentyitem
+    	{2011 - 2013}{}{Executive Master of Business Administration(MBA)}{\href{https://www.nebrija.com/}{\textbf{Univ. Nebrija}}}{}{}
+	\twentyitem
+    	{2004 - 2006}{}{Software Libre International Master}{\href{https://www.uoc.edu/}{\textbf{Universitat Oberta de Catalunya}}}{}{}
+	\twentyitem
+    	{2002 - 2004}{}{Software Engineering}{\href{https://esei.uvigo.es/}{\textbf{Universidade de Vigo}}}{}{}
+	\twentyitem
+    	{1998 - 2002}{}{Management Software Engineering}{\href{https://esei.uvigo.es/}{\textbf{Universidade de Vigo}}}{}{}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+\section{Courses}
 
 \begin{twenty} % Environment for a list with descriptions
     \twentyitem{2016}{}{Direcci\'on y Gesti\'on de Proyectos TI bajo la Metodolog\'ia PMI } {Vitae Consultores}{}{}
@@ -231,11 +229,12 @@ I am accustomed to manage and coordinate teams of different sizes including extr
 %    \twentyitem{2016}{}{The ITIL Foundation Certification v3.0}{Element-K}{}{}
 %    \twentyitem{2016}{}{Introducci\'on a la metodolog\'ia de direcci\'on de proyectos} {Tecnocom}{}{}
 %    \twentyitem{2010}{}{Formaci\'on de OCS 2007} {Profesional Training}{}{}
+%    \twentyitem{2010}{}{MOC5178A Implementing and Maintaining Audio/Visual Conferencing and Web Conferencing Using OCS 2007} {Profesional Training}{}{}
+%    \twentyitem{2010}{}{MOC5179A Implementing and Maintaining Telephony Using Microsoft Office Communications Server 2007} {Profesional Training}{}{}
 %    \twentyitem{2010}{}{Obradoiro sobre Xesti\'on de Identidades e Control de Accesos } {Oracle}{}{}
 %    \twentyitem{2010}{}{Formaci\'on DB2 especial para cliente R7624ES} {IBM formaci\'on}{}{}
 %    \twentyitem{2010}{}{Using TSA with InfoSphere Balanced Warehouse} {IBM formaci\'on}{}{}
 %    \twentyitem{2008}{}{Administraci\'on e Instalaci\'on Peoplenet} {Meta4}{}{}
-%    \twentyitem{2008}{}{Introducci\'on T\'ecnica para administradores} {Meta4}{}{}
 %    \twentyitem{2008}{}{MOC6425 Configuring Windows Server 2008 Active Directory Domain Services} {Profesional Training}{}{}
 %    \twentyitem{2008}{}{MOC6436 Designing a Windows Server 2008 Active Directory Infraestructure and Services} {Profesional Training}{}{}
 %    \twentyitem{2008}{}{MOC5053 Designing a Messaging Infraestructure using Microsoft Exchange Server 2007 } {Profesional Training}{}{}
@@ -249,7 +248,6 @@ I am accustomed to manage and coordinate teams of different sizes including extr
 %    \twentyitem{2003}{}{Xornadas de Seguridad Inform\'atica} {Deputación de Ourense}{}{}
 	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
 \end{twenty}
-
 
 %----------------------------------------------------------------------------------------
 %	 Additional Achievements
