@@ -206,10 +206,10 @@
     \renewcommand{\arraystretch}{2}
     \begin{tabular}{p{0cm} @{\hskip -0.2cm}p{6.5cm}}
       \ifthenelse{\equal{\aboutme}{}}{}{
-                \vspace*{-1cm}\includegraphics[width=0.3in]{img/left-quote.png}%{\raggedright\color{dark-gray}
-            & {\fontfamily{pcr}\aboutme\\
-            \vspace*{-0.8cm}\hspace*{5.5cm}\includegraphics[width=0.3in]{img/right-quote.png}%{\raggedright\color{dark-gray}
-            }}      
+                \vspace*{-1cm}\includegraphics[width=0.3in]{img/left-quote.png}
+            & {\fontfamily{pcr}\aboutme}
+            \vspace*{-0.8cm}\hspace*{5.5cm}\includegraphics[width=0.3in]{img/right-quote.png}
+            }      
     \end{tabular}
     \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
